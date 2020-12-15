@@ -16,9 +16,9 @@ Comandos:
     git log - lista todos os commits feitos naquela branch
 
     git reset:
-        -sof: apenas desfaz o git commit;
+        -sof: desfaz o git commit e o git add, sem alterar os arquivos;
 
-        -mixed: desfaz o git commit e o git add;
+        -mixed: não sei ...
 
         -hard: desfaz todas as alterações, como se litaralmente fosse dado um ctrl+z nos arquivos;
 
