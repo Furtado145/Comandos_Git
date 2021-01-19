@@ -1,0 +1,37 @@
+Meu primeiro sistema no Git
+
+Alteração para descrever melhor o sistema.
+
+Comandos:
+    git init - inicializa o git no diretório
+
+    git status - verifica as alterações 
+
+    git add -a - adiciona todos os arquivos do diretório ao git
+
+    git add *arq* -a - adicionada apenas o arquivo especificado
+
+    git commit -m - faz o commit da adição com uma breve mensagem 
+
+    git log - lista todos os commits feitos naquela branch
+
+    git reset:
+        -sof: desfaz o git commit e o git add, sem alterar os arquivos;
+
+        -mixed: não sei ...
+
+        -hard: desfaz todas as alterações, como se litaralmente fosse dado um ctrl+z nos arquivos;
+
+    git branch - lista todos os branchs do projeto e indica qual esta sendo usado no momento
+
+    git branch *nome* - cria novo branch com o *nome*
+
+    git checkout *nome* - altera o branch para o *nome*
+
+    git diff - mostra quais alterações foram feitas nos arquivos desde o ultimo commit
+    
+    git diff --name-only - apresenta apenas os nomes dos arquivos modificados
+
+    git diff *arq* - mostra as alteraçoes feitas apenas no arquivo especificado.
+
+    git checkout HEAD *arq* -- reverte as alterações feitas no *arq* para o que era no ultimo commit
