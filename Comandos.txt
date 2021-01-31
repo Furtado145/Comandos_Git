@@ -15,6 +15,11 @@ Comandos:
 
     git log - lista todos os commits feitos naquela branch
 
+    git remote - exibe seus diretórios remotos
+        add *nome *rep_url - Cria o diretório remoto com o *nome diretamente para o *rep_url
+
+        get-url *nome - exibe a url vinculada ao *nome        
+
     git reset --*mode *num_log:
         -sof: desfaz o git commit e o git add, sem alterar os arquivos;
 
