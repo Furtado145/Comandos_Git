@@ -35,3 +35,6 @@ Comandos:
     git diff *arq* - mostra as alteraçoes feitas apenas no arquivo especificado.
 
     git checkout HEAD *arq* -- reverte as alterações feitas no *arq* para o que era no ultimo commit
+
+    git revert --no-edit *codLog - similar ao git reset porem esse ele nao apaga o commit, deixando-o la para que voce possa corrigi-lo e commitar de novo
+    
