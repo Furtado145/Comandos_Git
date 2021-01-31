@@ -11,11 +11,11 @@ Comandos:
 
     git add *arq* -a - adicionada apenas o arquivo especificado
 
-    git commit -m - faz o commit da adição com uma breve mensagem 
+    git commit -m "*mensagem"- faz o commit da adição com uma breve mensagem 
 
     git log - lista todos os commits feitos naquela branch
 
-    git reset:
+    git reset --*mode *num_log:
         -sof: desfaz o git commit e o git add, sem alterar os arquivos;
 
         -mixed: não sei ...
