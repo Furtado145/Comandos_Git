@@ -47,3 +47,5 @@ Comandos:
     
     git pull *origin master - atualisa o rep local a partir do que tem no rep remoto (origin)
     
+    gitignore - criar o arq de texto ".gitignore" e dentro dele especificar os CAMINHOS dos arquivos a serem ignorados pelo git.
+    
